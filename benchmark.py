@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import random
 
+from config import config_colors
 import channel_coding
 import modulation
 import channel
@@ -33,7 +34,9 @@ def calculate_ber(sent_bits: list[int], received_bits: list[int]) -> float:
 
 
 if __name__ == "__main__":
-    num_bits = 60000            # Quantidade de bits para ter relevância estatística
+    config_colors()
+
+    num_bits = 500000            # Quantidade de bits para ter relevância estatística
     snr_range = range(-4, 20)   # Testar de -4dB até 20dB
     print(f"--- Iniciando Benchmark ({num_bits} bits por ponto) ---")
 
