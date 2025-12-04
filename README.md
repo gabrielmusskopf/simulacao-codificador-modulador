@@ -87,3 +87,8 @@ Gustavo Cortezia
 
 https://github.com/user-attachments/assets/2a833b88-9ea0-4bff-85c2-8987190cf5cb
 
+## Apresentação
+
+[Simulador modulação.pdf](https://github.com/user-attachments/files/23944917/Simulador.modulacao.pdf)
+
+
